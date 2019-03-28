@@ -1,0 +1,46 @@
+{
+  "name": "react-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "@material-ui/icons": "^3.0.2",
+    "apollo-boost": "^0.3.1",
+    "convert-seconds": "^1.0.1",
+    "dotenv": "^7.0.0",
+    "graphql": "^14.1.1",
+    "history": "^4.9.0",
+    "query-string": "^6.4.0",
+    "react": "^16.8.4",
+    "react-apollo": "^2.5.2",
+    "react-dom": "^16.8.4",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8",
+    "react-youtube": "^7.9.0",
+    "tone": "^13.4.9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "test:debug": "react-scripts --inspect-brk test --runInBand ",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.11.2",
+    "jest-enzyme": "^7.0.2",
+    "react-test-renderer": "^16.8.4",
+    "waait": "^1.0.4"
+  }
+}

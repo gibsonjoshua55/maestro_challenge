@@ -1,0 +1,26 @@
+{
+  "name": "graphql_server",
+  "version": "1.0.0",
+  "description": "Server that will connect GraphQL API with MongoDB server",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node_modules/.bin/jest --config test/jest.config.js --setupFiles dotenv/config --runInBand"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.4.8",
+    "dotenv": "^7.0.0",
+    "gql-tag": "^1.0.1",
+    "graphql": "^14.1.1",
+    "mongoose": "^5.4.19"
+  },
+  "devDependencies": {
+    "apollo-server-testing": "^2.4.8",
+    "chai": "^4.2.0",
+    "eslint-plugin-jest": "^22.4.1",
+    "jest": "^24.5.0",
+    "lodash": "^4.17.11"
+  }
+}
